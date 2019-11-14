@@ -4,14 +4,35 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Modern Web Development</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <link rel="stylesheet" href="lib/css/monokai.css">
+    
+    <style>
+      .users {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .users img {
+        max-width: 45%;
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-color: transparent !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+      }
+    </style>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -25,8 +46,187 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section><h2>Demystifying Modern <br/> Web Development</h2></section>
+				<section style='text-align: left;'>
+          <h4 style='text-align: left;'>whoami</h4>
+          <ul>
+            <li>Full Stack Web Developer</li>
+            <li>4 year experience</li>
+            <li>Full time freelancer</li>
+            <li>Procastinator</li>
+            <li>Gamer</li>
+          </ul>
+        </section>
+        <section style='text-align: left'>
+          <h4>What is our endgoal for today?</h4>
+          <ul>
+            <li>Shed some light on what modern web development is</li>
+            <li>Develop a modern web app together</li>
+            <li>Introduce you to the basics of React</li>
+            <li>Have fun</li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h4>Web Development</h4>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3>The Traditional Way</h3>
+          </section>
+          <section>
+            <img src="assets/traditional-web-page-lifecycle.jpg" alt="">
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3>The Modern/SPA Way</h3>
+          </section>
+          <section>
+            <img src="assets/SPA-lifecycle.png" alt="">
+          </section>
+        </section>
+        <section style='text-align: left;'>
+          <h4>The modern way is:</h4>
+          <ul>
+            <li>Faster</li>
+            <li>More user engaging</li>
+            <li>capable to run offline</li>
+            <li>seprating front-end and back-end concerns</li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h4>Modern tools and technologies for web development is limitless.</h4>
+          </section>
+          <section style='text-align: left;'>
+            <h5>CSS</h5>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Bulma</li>
+              <li>SASS</li>
+              <li>LESS</li>
+            </ul>
+          </section>
+          <section style='text-align: left;'>
+            <h5>JavaScript</h5>
+            <ul>
+              <li>ES6</li>
+              <li>jQuery</li>
+              <li>TypeScript</li>
+              <li>Vanilla JS</li>
+            </ul>
+          </section>
+          <section style='text-align: left;'>
+            <h5>Frameworks</h5>
+            <ul>
+              <li>React</li>
+              <li>Vue</li>
+              <li>Angular/AngularJS</li>
+              <li>Node</li>
+            </ul>
+          </section>
+          <section style='text-align: left;'>
+            <h5>API</h5>
+            <ul>
+              <li>REST APIs</li>
+              <li>Firebase</li>
+              <li>GraphQL</li>
+              <li>Apollo</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <img src="assets/React.js_logo-512.png" alt="">
+          <h3>ReactJS</h3>
+        </section>
+        <section>
+          <section>
+            <h3>What is React JS</h3>
+          </section>
+          <section>
+            <ul>
+              <li>Developed by Facebook</li>
+              <li>React is a library, and not a full-fledged framework.</li>
+              <li>You can't use React to develop a full-stack web app.</li>
+            </ul>
+          </section>
+          <section>
+            <img src="assets/languages.JPG" alt="">
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3>Who Uses React?</h3>
+          </section>
+          <section>
+            <div class="users">
+              <img src="assets/Facebook_f_logo_(2019).svg" alt="">
+              <img src="assets/instagram-png-instagram-png-logo-1455.png" alt="">
+          </section>
+          <section>
+            <div class="users">
+              <img src="assets/airbnb.png" alt="">
+              <img src="assets/netflix.png" alt="">
+            </div>
+          </section>
+          <section>
+            <div class="users">
+              <img src="assets/dropbox.png" alt="">
+              <img src="assets/codecademy.png" alt="">
+            </div>
+          </section>
+          <section>
+            <div class="users">
+              <img src="assets/reddit.png" alt="">
+              <img src="assets/paypal.png" alt="">
+            </div>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3>The Good</h3>
+          </section>
+          <section>
+            <ul>
+              <li>Component-driven</li>
+              <li>Declarative</li>
+              <li>JSX</li>
+              <li>Uses full power of JavaScript</li>
+              <li>Not a complete framework</li>
+              <li>Easy to learn.</li>
+            </ul>
+          </section>
+          <section>
+          <section>
+            <h3>The bad</h3>
+          </section>
+          <section>
+            <ul>
+              <li>Not a complete framework</li>
+              <li>No events</li>
+              <li>No XHR</li>
+              <li>No data/models</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Fundamentals</h3>
+            <p>Most important things in React</p>
+          </section>
+          <section>
+            <h3>Components</h3>
+          </section>
+          <section>
+            <h3>Props</h3>
+          </section>
+          <section>
+            <h3>State</h3>
+          </section>
+          <section>
+            <h3>JSX</h3>
+          </section>
+        </section>
 			</div>
 		</div>
 
